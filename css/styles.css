@@ -1,0 +1,145 @@
+/*Tag Selectors*/
+a:hover{
+  text-decoration: underline;
+}
+
+body{
+  margin: 0;
+}
+
+h1{
+  color: #27496d;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.25rem;
+}
+
+h2{
+  color: #00B140;
+  font-family: 'Work Sans', sans-serif;
+}
+
+hr{
+  border: none;
+  border-color: #f0f0f0;
+  border-bottom-style: dotted;
+  border-bottom-width: 10px;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  width: 6%;
+}
+
+/*Class Selectors*/
+.my-introduction{
+  background-color: #27496d;
+  box-shadow: 0px 15px 15px #323232;
+  display: inline-block;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.my-introduction-contact{
+  display: inline-block;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.8rem;
+  left: 375px;
+  position: relative;
+  top: 15px;
+}
+
+.my-introduction-summary{
+  margin: 0;
+  display: inline-block;
+}
+
+.my-introduction-contact-img{
+  height: 15px;
+  width: 15px;
+}
+
+.my-introduction-contact-detail{
+  bottom: 4px;
+  color: #F7F7F7;
+  position: relative;
+  text-decoration: none;
+}
+
+.general-position{
+  text-align: justify;
+  margin: 0 auto 0 auto;
+  width: 65%;
+  z-index: -1;
+}
+
+.general-text{
+  color: #27496d;
+  display: inline-block;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.25rem;
+  font-weight: bolder;
+  padding-left: 15px;
+  z-index: -1;
+}
+
+.my-description{
+  margin-top: 12rem;
+}
+
+.my-skills-oracle-img{
+  height: 100px;
+  width: 200px;
+}
+
+.my-skills-tableau-img{
+  height: 100px;
+  width: 250px;
+}
+
+.my-skills-r-img{
+  height: 90px;
+  width: 250px;
+}
+
+.my-skills-postgres-img{
+  height: 140px;
+  width: 180px;
+}
+
+.my-skills-github-img{
+  height: 120px;
+  width: 140px;
+}
+
+.other-tech-img{
+  padding-left: 20px;
+  height: 10%;
+  width: 10%;
+}
+
+/*ID Selectors*/
+#my-introduction-h1{
+  color: #F7F7F7;
+  font-size: 2rem;
+  font-family: 'Nunito', sans-serif;
+  left: 10px;
+  margin: 0;
+  position: relative;
+  bottom: 10px;
+}
+
+#my-introduction-h4{
+  color: #F7F7F7;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  left: 10px;
+  margin: 0;
+  position: relative;
+  bottom: 10px;
+}
+
+#my-introduction-img{
+  margin: 10px 0 10px 10px;
+  height: 100px;
+  width: 100px;
+  float: left;
+}
