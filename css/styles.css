@@ -42,8 +42,8 @@ hr{
   display: inline-block;
   font-family: 'Nunito', sans-serif;
   font-size: 0.8rem;
-  left: 375px;
   position: relative;
+  padding-left: 25%;
   top: 15px;
 }
 
