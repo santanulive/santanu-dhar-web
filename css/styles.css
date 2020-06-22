@@ -32,24 +32,27 @@ hr{
 .my-introduction{
   background-color: #27496d;
   box-shadow: 0px 15px 15px #323232;
-  display: inline-block;
   position: fixed;
-  top: 0px;
+  top: 0;
+  height: 115px;
   width: 100vw;
 }
 
 .my-introduction-contact{
-  display: inline-block;
   font-family: 'Nunito', sans-serif;
-  font-size: 0.8rem;
-  position: relative;
-  padding-left: 25%;
-  top: 15px;
+  font-size: 95%;
+  margin: 0;
+  position: absolute;
+  right: 30px;
+  top: 10px;
 }
 
 .my-introduction-summary{
   margin: 0;
   display: inline-block;
+  position: absolute;
+  margin-left: 110px;
+  margin-top: 35px;;
 }
 
 .my-introduction-contact-img{
@@ -118,22 +121,19 @@ hr{
 /*ID Selectors*/
 #my-introduction-h1{
   color: #F7F7F7;
-  font-size: 2vw;
   font-family: 'Nunito', sans-serif;
-  left: 10px;
+  font-size: 150%;
   margin: 0;
-  position: relative;
-  bottom: 10px;
+  padding-bottom: 2px;
+  padding-left: 10px;
 }
 
 #my-introduction-h4{
   color: #F7F7F7;
   font-family: 'Nunito', sans-serif;
-  font-size: 1vw;
   left: 10px;
   margin: 0;
-  position: relative;
-  bottom: 10px;
+  padding-left: 10px;
 }
 
 #my-introduction-img{
@@ -141,4 +141,5 @@ hr{
   height: 100px;
   width: 100px;
   float: left;
+  position: absolute;
 }
