@@ -11,6 +11,7 @@ h1{
   color: #27496d;
   font-family: 'Work Sans', sans-serif;
   font-size: 1.25rem;
+  margin-bottom: 3rem;
 }
 
 h2{
@@ -24,7 +25,6 @@ hr{
   border-bottom-style: dotted;
   border-bottom-width: 10px;
   margin-bottom: 3rem;
-  margin-top: 3rem;
   width: 6%;
 }
 
@@ -73,11 +73,10 @@ hr{
 
 .general-text{
   color: #27496d;
-  display: inline-block;
   font-family: 'Work Sans', sans-serif;
   font-size: 1.25rem;
   font-weight: bolder;
-  padding-left: 15px;
+  padding-bottom: 2em;
   z-index: -1;
 }
 
