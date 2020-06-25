@@ -4,78 +4,119 @@
 <head>
   <meta charset="utf-8">
   <title>Welcome</title>
+  <!-- Personalized CSS -->
   <link rel="stylesheet" href="css/styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/4a7ca45ec1.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   <link rel="icon" href="icons/santanu.ico">
 </head>
 
 <body>
-  <div class="my-introduction">
-    <img id="my-introduction-img" src="images/santanu.png" alt="Santanu's image">
-    <div class="my-introduction-summary">
-      <h1 id="my-introduction-h1">Santanu Dhar</h1>
-      <h4 id="my-introduction-h4">IT Professional, Database Engineer, Product Developer & Maintainer, Product SME</h4>
+  <!-- introduction Section -->
+  <div class="div-introduction">
+    <div class="">
+      <img class="my-img" src="images/santanu.png" alt="">
     </div>
-    <div class="my-introduction-contact">
+    <hr class="div-introduction-hr">
+    <div class="div-title">
+      <h3>Santanu Dhar</h3>
+      <h6>IT Professional, Database Engineer, Product Developer & Maintainer, Product SME</h6>
+    </div>
+    <hr class="div-introduction-hr">
+    <div class="div-introduction-contact">
+      <i class="fas fa-mobile img-social"></i><span class="span-introduction-contact">+91 905 177 6815</span>
       <div>
-        <img class="my-introduction-contact-img" src="images/gmail.png" alt="www.facebook.com">
-        <span class="my-introduction-contact-detail">santanudhar1491@gmail.com<span>
-      </div>
-      <div>
-        <img class="my-introduction-contact-img" src="images/contact.png" alt="www.facebook.com">
-        <span class="my-introduction-contact-detail">+91 905 177 6815<span>
-      </div>
-      <div>
-        <img class="my-introduction-contact-img" src="images/linkedin.png" alt="www.facebook.com">
-        <a class="my-introduction-contact-detail" href="https://www.linkedin.com/in/santanudhar1491">https://www.linkedin.com/in/santanudhar1491</a>
-      </div>
-      <div>
-        <img class="my-introduction-contact-img" src="images/twitter.png" alt="www.facebook.com">
-        <a class="my-introduction-contact-detail" href="https://twitter.com/santanulive">https://twitter.com/santanulive</a>
-      </div>
-      <div>
-        <img class="my-introduction-contact-img" src="images/facebook.png" alt="www.facebook.com">
-        <a class="my-introduction-contact-detail" href="https://www.facebook.com/santanulive">https://www.facebook.com/santanulive</a>
+        <a href="mailto:santanudhar1491@gmail.com"><i class="fas fa-envelope img-social"></i></a>
+        <a href="https://www.linkedin.com/in/santanudhar1491"><i class="fab fa-linkedin img-social"></i></a>
+        <a href="https://twitter.com/santanulive"><i class="fab fa-twitter-square img-social"></i></a>
+        <a href="https://www.facebook.com/santanulive"><i class="fab fa-facebook-square img-social"></i></a>
       </div>
     </div>
+    <hr class="div-introduction-hr">
+    <div class="div-introduction-quote">
+      "Be Fearless! Cause when you start to feel the heat downunder, that's when you discover the champion in you" - Sourav Ganguly
+    </div>
   </div>
-  <div class="general-position my-description">
-    <h1>
-      An IT Professional with over 6 years of experience in the field of Product development, maintenance and enhancement. Engaged in providing IT services like analysis and design, user training and technical consulting in the area of programming
-      and product support.
-    </h1>
-  </div>
-  <hr>
-  <div class="general-position my-skills">
-    <h2>
+  <!-- Body -->
+  <div class="my-description">
+    An IT Professional with over 6 years of experience in the field of Product development, maintenance and enhancement. Engaged in providing IT services
+    like analysis and design, user training and technical consulting in the area of programming and product support.
+    <hr class="div-description-hr">
+    <div class="section-header">
       Technical Skills
-    </h2>
+    </div>
+    <!-- Major Technical Skills -->
+    <!-- Oracle -->
+    <div class="card-deck">
+      <div class="row">
+        <div class="col col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <img src="images/oracle.jpg" class="card-img-top" alt="oracle.img">
+            <div class="card-body">
+              <p class="card-text card-text-override">5.5+ years of major experience in advaced level of product backend coding using Oracle PL/SQL, with moderate knowledge of Oracle Database Administration. Handled almost over 200+ packages, procedures.</p>
+            </div>
+          </div>
+        </div>
+        <!-- tableau -->
+        <div class="col col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <img src="images/tableau.jpg" class="card-img-top" alt="tableau.img">
+            <div class="card-body">
+              <p class="card-text card-text-override">Strong knowledge on Tableau in the filed of Data Science. Tableau certified Tableau Author & Analyst.</p>
+            </div>
+          </div>
+        </div>
+        <!-- R Program -->
+        <div class="col col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <img src="images/r.png" class="card-img-top" alt="r.img">
+            <div class="card-body">
+              <p class="card-text card-text-override">Good knowledge about R programming in the field of Data Science.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Postgres -->
+        <div class="col col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <img src="images/postgres.png" class="card-img-top" alt="postgres.img">
+            <div class="card-body">
+              <p class="card-text card-text-override">Intermidiate level knowledge on Postgres Database.</p>
+            </div>
+          </div>
+        </div>
+        <!-- GitHub -->
+        <div class="col col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <img src="images/github.png" class="card-img-top png-background" alt="github.img">
+            <div class="card-body">
+              <p class="card-text card-text-override">Strong knowledge on Git and GitHub to maintain different code versions and releases.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="div-description-hr">
+    <div class="section-header">
+      Other Skills
+    </div>
+    <!-- Other Skills -->
+    <div class="">
+          <img src="images/html.png" class="other-skill-img" alt="html.img">
+          <img src="images/css.png" class="other-skill-img" alt="css.img">
+          <img src="images/bootstrap.png" class="other-skill-img" alt="bootstrap.img">
+          <img src="images/shell.png" class="other-skill-img" alt="shell.img">
+    </div>
+    <hr class="div-description-hr">
   </div>
-  <div class="general-position">
-    <img class="my-skills-oracle-img" src="images/oracle.jpg" alt="Oracle">
-    <div class="general-text">5.5+ years of major experience in advaced level of product backend coding using Oracle PL/SQL, with moderate knowledge of Oracle Database Administration. Handled almost over 200+ packages, procedures.</div>
-
-    <img class="my-skills-tableau-img" src="images/tableau.jpg" alt="Tableau">
-    <div class="general-text">Strong knowledge on Tableau in the filed of Data Science. Tableau certified Tableau Author & Analyst.</div>
-
-    <img class="my-skills-r-img" src="images/r.png" alt="R">
-    <div class="general-text">Good knowledge about R programming in the field of Data Science.</div>
-
-    <img class="my-skills-postgres-img" src="images/postgres.png" alt="PostGres">
-    <div class="general-text">Intermidiate level knowledge on Postgres Database.</div>
-
-    <img class="my-skills-github-img" src="images/github.png" alt="GitHub">
-    <div class="general-text">Strong knowledge on Git and GitHub to maintain different code versions and releases.</div>
-
-  </div>
-  <hr>
-  <div class="general-position my-skills">
-    <h2>Other Technical Skills</h2>
-    <img class="other-tech-img" src="images/html.png" alt="HTML">
-    <img class="other-tech-img" src="images/css.png" alt="HTML">
-  </div>
-  <hr>
 </body>
 
 </html>

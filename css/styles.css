@@ -1,145 +1,120 @@
 /*Tag Selectors*/
-a:hover{
-  text-decoration: underline;
-}
-
-body{
+body {
   margin: 0;
 }
 
-h1{
-  color: #27496d;
-  font-family: 'Work Sans', sans-serif;
-  font-size: 1.25rem;
-  margin-bottom: 3rem;
+h3{
+  margin: 0;
 }
 
-h2{
-  color: #00B140;
-  font-family: 'Work Sans', sans-serif;
-}
-
-hr{
-  border: none;
-  border-color: #f0f0f0;
-  border-bottom-style: dotted;
-  border-bottom-width: 10px;
-  margin-bottom: 3rem;
-  width: 6%;
+h5{
+  margin: 0;
 }
 
 /*Class Selectors*/
-.my-introduction{
-  background-color: #27496d;
-  box-shadow: 0px 15px 15px #323232;
-  position: fixed;
-  top: 0;
-  height: 115px;
-  width: 100vw;
+.card{
+  background: #EFEFBB;
+  background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);
+  background: linear-gradient(to right, #D4D3DD, #EFEFBB);
+  height: 20rem;
+  margin: 5% 0 0 0;
 }
 
-.my-introduction-contact{
-  font-family: 'Nunito', sans-serif;
-  font-size: 95%;
-  margin: 0;
-  position: absolute;
-  right: 30px;
-  top: 10px;
+.card-text-override{
+  font-size: 0.8rem;
 }
 
-.my-introduction-summary{
-  margin: 0;
+.div-description-hr{
+  border: none;
+  border-bottom-color: #f3f3f3;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.div-introduction {
+  background: #0f0c29;
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  box-shadow: 10px 0 25px #393e46;
   display: inline-block;
-  position: absolute;
-  margin-left: 110px;
-  margin-top: 35px;;
+  height: 100vh;
+  min-width: 20vw;
+  position: fixed;
+  width: 20vw;
 }
 
-.my-introduction-contact-img{
-  height: 15px;
-  width: 15px;
+.div-introduction-hr{
+  border: none;
+  border-bottom-color: #393e46;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
 }
 
-.my-introduction-contact-detail{
-  bottom: 4px;
-  color: #F7F7F7;
-  position: relative;
-  text-decoration: none;
+.div-introduction-contact{
+  color: #eeeeee;
+  margin: 0 10% 0 20%;
 }
 
-.general-position{
-  text-align: justify;
-  margin: 0 auto 0 auto;
-  width: 65%;
-  z-index: -1;
+.div-introduction-quote{
+  bottom: 10px;
+  color: #eeeeee;
+  font-style: italic;
+  font-size: 0.7rem;
+  padding: 10px;
+  position: fixed;
+  width: inherit;
 }
 
-.general-text{
-  color: #27496d;
-  font-family: 'Work Sans', sans-serif;
-  font-size: 1.25rem;
-  font-weight: bolder;
-  padding-bottom: 2em;
-  z-index: -1;
+.div-title{
+  color: #eeeeee;
+  font-family: 'Nunito', sans-serif;
+  margin: 5% 10%;
+}
+
+.img-social{
+  color: #aaaaaa;
+  padding:6px 6px;
+}
+
+.img-social:hover{
+  color: #eeeeee;
+  cursor: pointer;
 }
 
 .my-description{
-  margin-top: 12rem;
+  /* background: #EFEFBB;
+  background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);
+  background: linear-gradient(to right, #D4D3DD, #EFEFBB);  */
+
+
+
+  color: #00005c;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0 0 0 20vw;
+  padding: 1% 5% 0 5%;
 }
 
-.my-skills-oracle-img{
-  height: 100px;
-  width: 200px;
+.my-img{
+  margin: 5% 0 0 25%;
+  width: 45%;
 }
 
-.my-skills-tableau-img{
-  height: 100px;
-  width: 250px;
-}
-
-.my-skills-r-img{
-  height: 90px;
-  width: 250px;
-}
-
-.my-skills-postgres-img{
-  height: 140px;
-  width: 180px;
-}
-
-.my-skills-github-img{
-  height: 120px;
-  width: 140px;
-}
-
-.other-tech-img{
-  padding-left: 20px;
-  height: 10%;
+.other-skill-img{
+  padding: 0 2%;
   width: 10%;
 }
 
+.png-background{
+  background-color:#FFFFFF;
+}
+
+.section-header{
+  color: #00B140;
+  font-family: 'Montserrat', sans-serif;
+  padding: 1% 0 1%;
+}
+.span-introduction-contact{
+  font-size: 0.8rem;
+}
+
 /*ID Selectors*/
-#my-introduction-h1{
-  color: #F7F7F7;
-  font-family: 'Nunito', sans-serif;
-  font-size: 150%;
-  margin: 0;
-  padding-bottom: 2px;
-  padding-left: 10px;
-}
-
-#my-introduction-h4{
-  color: #F7F7F7;
-  font-family: 'Nunito', sans-serif;
-  left: 10px;
-  margin: 0;
-  padding-left: 10px;
-}
-
-#my-introduction-img{
-  margin: 10px 0 10px 10px;
-  height: 100px;
-  width: 100px;
-  float: left;
-  position: absolute;
-}
