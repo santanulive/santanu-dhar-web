@@ -3,14 +3,6 @@ body {
   margin: 0;
 }
 
-h3{
-  margin: 0;
-}
-
-h5{
-  margin: 0;
-}
-
 /*Class Selectors*/
 .card{
   background: #EFEFBB;
@@ -36,9 +28,7 @@ h5{
   background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
   background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
   box-shadow: 10px 0 25px #393e46;
-  display: inline-block;
   height: 100vh;
-  min-width: 20vw;
   position: fixed;
   width: 20vw;
 }
@@ -69,6 +59,14 @@ h5{
   color: #eeeeee;
   font-family: 'Nunito', sans-serif;
   margin: 5% 10%;
+}
+
+.header-size-h3{
+  font-size: 1.8rem;
+}
+
+.header-size-h5{
+  font-size: 1rem;
 }
 
 .img-social{
@@ -113,8 +111,81 @@ h5{
   font-family: 'Montserrat', sans-serif;
   padding: 1% 0 1%;
 }
+
 .span-introduction-contact{
   font-size: 0.8rem;
 }
 
+/* Media Query */
+@media (min-height: 1080px)
+{
+  .card{
+    background: #EFEFBB;
+    background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);
+    background: linear-gradient(to right, #D4D3DD, #EFEFBB);
+    height: 40rem;
+    margin: 5% 0 0 0;
+  }
+
+  .card-text-override{
+    font-size: 1.4rem;
+  }
+
+  .div-introduction {
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    box-shadow: 10px 0 25px #393e46;
+    display: inline-block;
+    width: 100vw;
+    position: static;
+    height: 44%;
+  }
+
+  .header-size{
+    font-size: 3rem;
+  }
+
+  .div-introduction-quote{
+    color: #eeeeee;
+    font-style: italic;
+    font-size: 1.2rem;
+    position: static;
+    padding: 30px;
+    width: inherit;
+  }
+
+  .div-title{
+    color: #eeeeee;
+    font-family: 'Nunito', sans-serif;
+    margin: 5% 5%;
+  }
+
+  .header-size-h3{
+    font-size: 4rem;
+  }
+
+  .header-size-h5{
+    font-size: 2rem;
+  }
+
+  .my-description{
+    /* background: #EFEFBB;
+    background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);
+    background: linear-gradient(to right, #D4D3DD, #EFEFBB);  */
+
+
+
+    color: #00005c;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.8rem;
+    margin: 2vh 2vw 0 2vw;
+    padding: 1% 5% 0 5%;
+  }
+
+  .my-img{
+    margin: 3% 0 0 35%;
+    width: 25%;
+  }
+}
 /*ID Selectors*/
