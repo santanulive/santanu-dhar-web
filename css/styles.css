@@ -169,6 +169,12 @@ body {
     font-size: 2rem;
   }
 
+  .img-social{
+    color: #aaaaaa;
+    font-size: 3rem;
+    padding:10px 5%;
+  }
+
   .my-description{
     /* background: #EFEFBB;
     background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);
@@ -186,6 +192,10 @@ body {
   .my-img{
     margin: 3% 0 0 35%;
     width: 25%;
+  }
+
+  .span-introduction-contact{
+    font-size: 2rem;
   }
 }
 /*ID Selectors*/
